@@ -1,6 +1,6 @@
 {
-  "name": "outils",
-  "version": "1.6.0",
+  "name": "front-wheel",
+  "version": "1.0.0",
   "description": "前端业务代码工具库",
   "main": "min/outils.min.js",
   "types": "index.d.ts",
@@ -18,14 +18,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/proYang/outils.git"
+    "url": "git+https://github.com/palxiao/outils.git"
   },
   "keywords": [
     "util",
     "tool",
     "common-util"
   ],
-  "author": "SlaneYang",
+  "author": "ShawnPhang",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
