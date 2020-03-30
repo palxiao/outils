@@ -14,7 +14,7 @@ rm('*.js', err => {
   if (err) throw (err)
   let folderList = fs.readdirSync(path.resolve(rootPath, 'src'))
   folderList.forEach((item, index) => {
-    copy(`src/${item}/*.js`, rootPath, function (err, files) {
+    copy(`src/${item}/*.js`, `${rootPath}/dist`, function (err, files) {
       if (err) throw err;
       if (index === folderList.length - 1) {
         console.log(chalk.cyan('  Copy complete.\n'))
